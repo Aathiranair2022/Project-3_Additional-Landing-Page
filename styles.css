@@ -1,0 +1,199 @@
+body {
+  font-family: "Montserrat";
+}
+
+h2,h3,h4,h5,h6 {
+    font-family: "Montserrat";
+}
+
+
+h2 {
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+p {
+  color:#8f8f8f;
+  font-size: 0.8rem;
+}
+
+.big-heading {
+  font-family: "Comfortaa";
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.5;
+  margin-left: 1px;
+}
+
+.small-heading {
+  font-family: "Comfortaa";
+  font-weight: bold;
+  font-size: 0.7rem;
+  line-height: 2;
+  text-align: justify;
+
+}
+
+#About {
+  width: 100%;
+  padding: 7% 10% 7% 10%;
+  font-family: "Comfortaa";
+  background-color: #F1EEE9;
+}
+
+.new-title-image {
+  width: 90%;
+}
+
+.head {
+  font-family: "Comfortaa";
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+
+#title {
+  width: 100%;
+  background-color: #EC994B;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 10% 10%;
+}
+
+.new-container-fluid {
+    padding: 2% 8% 2% 8%;
+}
+/* navigation bar */
+.navbar {
+  padding: 0 0 5.5rem;
+}
+
+.navbar-brand {
+  font-family: "Gochi Hand";
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FFFF;
+}
+
+.nav-item {
+  padding: 9px 10px;
+  color: #FFFF;
+}
+
+.nav-link {
+  font-size: 0.8rem;
+  padding: 9px 10px;
+  font-family: "Comfortaa";
+  font-weight: 900;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 10px;
+}
+
+/* Title Image */
+.title-image {
+  width: 85%;
+}
+
+/* Features Section */
+#features {
+  width: 100%;
+  padding: 7% 7%;
+  background-color: #F1EEE9;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 15%;
+  margin: 3rem;
+}
+
+/* Testimonial Section */
+#testimonials {
+  width: 100%;
+  text-align: center;
+  background-color: #FFE3A9;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  color: #354259;
+  font-family: "Comfortaa";
+  line-height: 1.5;
+}
+
+
+.testimonial-image {
+  width: 30%;
+  border-radius: 30%;
+  margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#cta {
+  width: 100%;
+  background-color: #EC994B;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading {
+  font-family: "Comfortaa";
+  font-size: 2.8rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#footer {
+  width: 100%;
+  padding: 7% 15%;
+text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+.new {
+  position: relative;
+  left:35%;
+  right:30%;
+  font-family: "Comfortaa";
+}
+
+.btn {
+  font-family: "Comfortaa";
+  margin : 10px;
+}
+
+.form-inline {
+  padding: 10px 3px;
+  font-size: 10px;
+}
+
+.form-control{
+    width: 110px;
+}
+
+@media (max:width: 1028px) {
+  .title-image {
+    position: static;
+  }
+}
